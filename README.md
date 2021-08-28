@@ -1,6 +1,10 @@
 # LLVM CONTRIBUTIONS:
 
 Contributed to https://github.com/llvm/llvm-project
+Worked on adding support for Motorola 68k backend into the Global Instruction Selection
+framework, to be able to translate LLVM IR into machine specific IR suitable for the m68k architecture. Implemented
+call lowerings for multiple operations in four major stages: IRTranslator stage, Legalizer stage, RegBankSelect stage and
+the InstructionSelect stage. The changes and patches have been successfully upstreamed into the LLVM codebase.
 
 ## Code contributions:
 - https://reviews.llvm.org/D101819
